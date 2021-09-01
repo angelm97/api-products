@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <h2>Api PHP</h2>
+    </nav>
+    <div class="content">
+
+        <div class="list">
+            <h3>List of products</h3>
+            <table>
+                <div id="table33"></div>
+                <tr id="tr">
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Options</th>
+                </tr>
+
+            </table>
+        </div>
+        <div class="create">
+            <h3>New Product</h3>
+            <form id="form" onclick='return false'>
+                <div>
+                    <label>Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label>Price</label>
+                    <input type="number" id="price" required>
+                    <div>
+                        <label>Stock</label>
+                        <input type="number" id="stock" required>
+                    </div>
+                    <button id="add">Add</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+
+</html>

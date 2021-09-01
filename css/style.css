@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    display:flex;
+    flex-flow: row;
+    margin: 50px;
+    
+}
+
+nav{
+    background-color: aqua;
+    height: 50px;
+    padding: 0px 20px;
+    align-items: flex-end
+}
+
+nav h2{
+    line-height: 50px;
+}
+
+.list{
+    width: 70%;
+    
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+
+form{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+}
+
+form label{
+    font-size: 20px;
+}
+
+form input{
+    height: 25px;
+    opacity: 0.8;
+}
+
+form button{
+    width: 50%;
+    height: 30px;
+    opacity: 0.8;
+    justify-content: end;
+    margin: 15px 25%;
+}
+
+.delete{
+    width: 40%;
+    background-color: red;
+}
+
+.edit{
+    width: 40%;
+    background-color: rgb(197, 206, 29);
+}
